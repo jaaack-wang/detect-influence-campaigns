@@ -32,3 +32,9 @@ We use data collected during a large research program with [a DARPA INCAS projec
       primaryClass={cs.CL}
 }
 ``````
+
+
+
+### Acknowledgements
+
+We thank three anonymous reviewers from the 6th NLP+CSS Workshop for the constructive and helpful comments. This material is based on work supported by the Defense Advanced Research Projects Agency (DARPA) under Contracts No. HR01121C0186, No. HR001120C0037, and PR No. HR0011154158. Any opinions, findings and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of DARPA. Rambow gratefully acknowledges support from the Institute for Advanced Computational Science at Stony Brook University.
