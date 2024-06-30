@@ -1,6 +1,10 @@
+<p align='center'>
+ <img align="center" src="pipeline_visualization.png">
+</p>
+
 ### Description
 
-This repo contains code for the paper: [Clustering Document Parts: Detecting and Characterizing Influence Campaigns from Documents](https://arxiv.org/abs/2402.17151). The paper is accepted by the [6th Workshop on Natural Language Processing and Computational Social Science (NLP+CSS)](https://sites.google.com/site/nlpandcss/nlp-css-at-naacl-2024) and will appear in the proceedings soon. 
+This repo contains code for the paper: [Clustering Document Parts: Detecting and Characterizing Influence Campaigns from Documents](https://aclanthology.org/2024.nlpcss-1.10/), accepted by the [6th Workshop on Natural Language Processing and Computational Social Science (NLP+CSS)](https://sites.google.com/site/nlpandcss/nlp-css-at-naacl-2024). For a quick review of the paper, you can read [the poster](./nlp+css_poster.pdf) included in the repo.
 
 The ``scripts`` folder has code mostly for data preprocessing, belief-tagging, and clustering. The code outside the folder was used for doing the experiments. The file ``main.sh`` logs the experimental procedure. 
 
@@ -23,13 +27,21 @@ We use data collected during a large research program with [a DARPA INCAS projec
 ### Citation
 
 ``````
-@misc{wang2024clustering,
-      title={Clustering Document Parts: Detecting and Characterizing Influence Campaigns From Documents}, 
-      author={Zhengxiang Wang and Owen Rambow},
-      year={2024},
-      eprint={2402.17151},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{wang-rambow-2024-clustering,
+    title = "Clustering Document Parts: Detecting and Characterizing Influence Campaigns from Documents",
+    author = "Wang, Zhengxiang  and
+      Rambow, Owen",
+    editor = "Card, Dallas  and
+      Field, Anjalie  and
+      Hovy, Dirk  and
+      Keith, Katherine",
+    booktitle = "Proceedings of the Sixth Workshop on Natural Language Processing and Computational Social Science (NLP+CSS 2024)",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.nlpcss-1.10",
+    pages = "132--143",
 }
 ``````
 
